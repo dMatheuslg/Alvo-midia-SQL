@@ -78,6 +78,9 @@ ALTER TABLE tarefas_video ADD CONSTRAINT fk_arquivos_video FOREIGN KEY (arquivo_
 
 #senha 1234
 INSERT INTO adm VALUES(1, 'Administrador', 'adm', '$2y$10$zgMEmoQMuJLsAVUrbGnZ.OmuUyLL/K/z0M7y.rnHqXve7D/Xl9ujq'); 
+INSERT INTO adm VALUES(2, 'Gustavo', 'GO', '$2y$10$zgMEmoQMuJLsAVUrbGnZ.OmuUyLL/K/z0M7y.rnHqXve7D/Xl9ujq'); 
+INSERT INTO adm VALUES(3, 'Matheus', 'MTH', '$2y$10$zgMEmoQMuJLsAVUrbGnZ.OmuUyLL/K/z0M7y.rnHqXve7D/Xl9ujq'); 
+INSERT INTO adm VALUES(4, 'Fabiola', 'FAB', '$2y$10$zgMEmoQMuJLsAVUrbGnZ.OmuUyLL/K/z0M7y.rnHqXve7D/Xl9ujq'); 
 
 INSERT INTO usuarios VALUES(1, 'José', '12245578800', 'jose123@gmail.com', '$2y$10$zgMEmoQMuJLsAVUrbGnZ.OmuUyLL/K/z0M7y.rnHqXve7D/Xl9ujq', 'premium'); 
 INSERT INTO usuarios VALUES(2, 'Carlos', '12345678901', 'carlos@gmail.com', '$2y$10$zgMEmoQMuJLsAVUrbGnZ.OmuUyLL/K/z0M7y.rnHqXve7D/Xl9ujq', 'básico'); 
