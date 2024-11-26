@@ -80,3 +80,5 @@ ALTER TABLE tarefas_video ADD CONSTRAINT fk_arquivos_video FOREIGN KEY (arquivo_
 INSERT INTO adm VALUES(1, 'Administrador', 'adm', '$2y$10$zgMEmoQMuJLsAVUrbGnZ.OmuUyLL/K/z0M7y.rnHqXve7D/Xl9ujq'); 
 
 INSERT INTO usuarios VALUES(1, 'José', '12245578800', 'jose123@gmail.com', '$2y$10$zgMEmoQMuJLsAVUrbGnZ.OmuUyLL/K/z0M7y.rnHqXve7D/Xl9ujq', 'premium'); 
+INSERT INTO usuarios VALUES(2, 'Carlos', '12345678901', 'carlos@gmail.com', '$2y$10$zgMEmoQMuJLsAVUrbGnZ.OmuUyLL/K/z0M7y.rnHqXve7D/Xl9ujq', 'básico'); 
+INSERT INTO usuarios VALUES(3, 'Maria', '01928374651', 'maria777@gmail.com', '$2y$10$zgMEmoQMuJLsAVUrbGnZ.OmuUyLL/K/z0M7y.rnHqXve7D/Xl9ujq', 'empresarial'); 
